@@ -1,0 +1,94 @@
+
+
+
+#header ul {
+    list-style-type: none;
+    margin: 0px 20px 0px 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color:#000099;
+    height: 0.5in;
+    
+}
+
+#header ul li {
+    float: left;
+    border-right: 1px solid beige;
+    
+}
+
+#header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#header ul li a:hover {
+    background-color:#0000e2;
+    color: white;
+}
+.linkdin-icon{
+    float: right;
+    margin-right: 10px;
+}
+.twitter-icon{
+    float: right;
+    margin-top: 7px;
+}
+.facebook-icon{
+    float: right;
+    margin-top: 12px;
+}
+/* slogan and search bottom */
+#header-ul-li h1{
+    color: #0000e2;
+    margin-top: -15px;
+    margin-left: 20px;
+}
+#tc{
+    color: #07ADFF;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+#search-text-input{
+    margin-left: 72%;
+    margin-top: -04in;
+}
+#search-icon{
+    margin-left: -20px;
+    
+}
+
+#pointer {
+      width: 100px;
+      height: 40px;
+      margin-left: 30px;
+      margin-top: 30px;
+      position: relative;
+      background: red;
+    }
+    #pointer:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 20px solid white;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+    }
+    #pointer:before {
+      content: "";
+      position: absolute;
+      right: -20px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-left: 20px solid red;
+      border-top: 20px solid transparent;
+      border-bottom: 20px solid transparent;
+    }
